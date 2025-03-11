@@ -3,3 +3,19 @@ body {
   height: 100%;
   margin: 0;
 }
+nav{
+  width: 80%;
+  text-align: center;
+}
+.About,.New-properties,.Listings,.Market-report, .Contact, .Hud{
+  background-color: grey;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+  
