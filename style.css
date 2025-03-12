@@ -2,6 +2,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  
 }
 nav{
   width: 80%;
@@ -9,7 +10,8 @@ nav{
 }
 .About,.New-properties,.Listings,.Market-report, .Contact, .Hud{
   background-color: grey;
-  text-align: center;
+  text-align: right;
+  margin: 2px 2px;
 }
 h1{
   text-align: center;
@@ -17,9 +19,31 @@ h1{
 img {
   display: block;
   margin: auto;
+ 
 }
 #featured-property{
-  text-align: center;
+  text-align:center;
   display: block;
+}
+#details{
+  display: block;
+  flex: 1;
+  padding: 10px;
+  
+}
+.paragraph-margin{
+  margin:10px 200px;
+}
+#hfghu{
+  margin: 0px 200px 0px 200px;
+  text-align: center;
+}
+#details{
+  display: inline-flex;
+  text-align:center ;
+  margin: 0px 0px 0px 0px;
+  column-gap: 120px;
+  background-color: red;
+  width: 100%;
 }
   
